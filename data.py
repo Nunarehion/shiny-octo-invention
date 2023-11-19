@@ -1,3 +1,4 @@
+#выбери фаэл для диалога
 import pygame,sys
 pygame.init()
 window=pygame.display.set_mode((1000,600))
