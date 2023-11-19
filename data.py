@@ -10,6 +10,7 @@ bleck=(0,0,0)
 #чистота обновления экрана
 FPS=30
 clok=pygame.time.Clock()
+#основной цикл в котором будут прописыватся события и все действия 
 while True:
     for event in pygame.event.get():
         if event.type==pygame.QUIT:
@@ -18,3 +19,4 @@ while True:
     clok.tick(FPS)
     pygame.display.update()
     window.fill(red)
+    # ниже все действия которые не нужно постоянно проверять
